@@ -1,13 +1,17 @@
 
 
 
+
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Auto Detailing in  Austin,  TX 78701 | Diamond Touch Auto Detailing |  Home </title>
+        <title>Auto Detailing in Taylorsville, NC | Diamond Touch Auto Detailing |  Home</title>
+        <meta name="description" content="Diamond Touch Auto Detailing is Taylorsville&#x27;s most trusted Auto Detailing service. We are a customer-first company and you are always a priority.">
         <!-- <title>ProPhone Templates</title> -->
         <!-- TailwindCSS  -->
         <!-- <link rel="stylesheet" type="text/css" href="/staticfiles/landing_page_gen/tailwind.css"> -->
@@ -18,7 +22,7 @@
            
 
         
-        <link href="https://prophone.herokuapp.com/staticfiles/landing_page_gen/output.css" rel="stylesheet">
+        <link defer href="https://prophone.herokuapp.com/staticfiles/landing_page_gen/output.css" rel="stylesheet">
         <!-- Include Scripts -->
         <!-- Header Component, only used for presentation -->
 
@@ -34,7 +38,7 @@
 <script defer src="https://unpkg.com/alpinejs@3.7.0/dist/cdn.min.js"></script>
 <!-- Focus Visible Polyfill -->
 <script defer src="https://unpkg.com/focus-visible@5.2.0/dist/focus-visible.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <!-- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script> -->
         <style>
@@ -58,7 +62,7 @@
                 --color-primary-foreground: hsl(0, 0%, var(--switch));
             }
         </style>
-                <script type="text/javascript">
+                <script type="text/javascript" defer>
                     function send_sms(slug){
                         console.log('send_sms', slug)
                         // var sender_fname = $(`#${form_num}-first-name`).val()
@@ -92,8 +96,7 @@
                         var sender_services = ""
         
                         console.log("text", slug, sender_fname, sender_lname, sender_number, sender_message)
-                        // return ' bucks'
-                        // fetch('http://127.0.0.1:8000/sms/' + slug , {
+
                         fetch('https://prophone.herokuapp.com/sms/' + slug , {
                             method: 'POST',
                             body: JSON.stringify({
@@ -1015,7 +1018,8 @@
             <img
                 class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
                 src="https://landing-page-app-hero-images.s3.amazonaws.com/media/76f181d5-d5c9-45c5-a57b-dfb826f0e084.jpeg"
-                alt="-image"
+                loading="lazy"
+                alt="Auto Detailing company Diamond Touch Auto Detailing in Taylorsville, NC"
             />
         </div>
         
@@ -1032,7 +1036,8 @@
             <img
                 class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
                 src="https://landing-page-app-hero-images.s3.amazonaws.com/media/cf5ac457-943f-443b-a41a-9393d49f3e0e.jpeg"
-                alt="-image"
+                loading="lazy"
+                alt="Auto Detailing company Diamond Touch Auto Detailing in Taylorsville, NC"
             />
         </div>
         
@@ -1049,7 +1054,8 @@
             <img
                 class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
                 src="https://landing-page-app-hero-images.s3.amazonaws.com/media/1b97f0c8-b286-46cb-914f-a73c97ae9337.jpeg"
-                alt="-image"
+                loading="lazy"
+                alt="Auto Detailing company Diamond Touch Auto Detailing in Taylorsville, NC"
             />
         </div>
         
@@ -1066,7 +1072,8 @@
             <img
                 class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
                 src="https://landing-page-app-hero-images.s3.amazonaws.com/media/91d36341-d0a1-45a8-a93f-1cf983d3ccfb.jpeg"
-                alt="-image"
+                loading="lazy"
+                alt="Auto Detailing company Diamond Touch Auto Detailing in Taylorsville, NC"
             />
         </div>
         
@@ -1157,7 +1164,8 @@
                               
                                   
                                       <img 
-                                        src="https://landing-page-app-hero-images.s3.amazonaws.com/media/8eb17f6b-f828-4f17-88e4-c6789266fc60.jpeg"   alt="About Us Image"  
+                                        src="https://landing-page-app-hero-images.s3.amazonaws.com/media/8eb17f6b-f828-4f17-88e4-c6789266fc60.jpeg"
+                                        alt="Diamond Touch Auto Detailing team in Taylorsville, NC - people or person"
                                         class="w-auto h-auto max-h-full max-w-full"
                                         loading="lazy"
                                       >
@@ -1192,7 +1200,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                               <a
                                 target="_blank" rel="noopener noreferrer"   
                                   class="inline-flex items-center justify-center p-1 rounded-full  group focus:outline-none focus:ring-2 ring-white ring-offset-2 ring-offset-primary"
-                                  href="//facebook.com/diamondtouch828"
+                                  href="https://facebook.com/diamondtouch828"
                               >
                                   <!-- Screen Reader Fallback -->
                                   <span class="sr-only">Facebook</span>
@@ -1352,7 +1360,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             <!-- Image -->
                             <img
                                 class="object-cover grayscale"
-                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=414&q=80"
                                 alt=""
                             />
                         </a>
@@ -1407,7 +1415,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             <!-- Image -->
                             <img
                                 class="object-cover grayscale"
-                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=414&q=80"
                                 alt=""
                             />
                         </a>
@@ -1462,7 +1470,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             <!-- Image -->
                             <img
                                 class="object-cover grayscale"
-                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=414&q=80"
                                 alt=""
                             />
                         </a>
@@ -1517,7 +1525,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             <!-- Image -->
                             <img
                                 class="object-cover grayscale"
-                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=414&q=80"
                                 alt=""
                             />
                         </a>
@@ -1572,7 +1580,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             <!-- Image -->
                             <img
                                 class="object-cover grayscale"
-                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=414&q=80"
                                 alt=""
                             />
                         </a>
@@ -1627,7 +1635,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             <!-- Image -->
                             <img
                                 class="object-cover grayscale"
-                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=414&q=80"
                                 alt=""
                             />
                         </a>
@@ -1682,7 +1690,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             <!-- Image -->
                             <img
                                 class="object-cover grayscale"
-                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=414&q=80"
                                 alt=""
                             />
                         </a>
@@ -1737,7 +1745,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             <!-- Image -->
                             <img
                                 class="object-cover grayscale"
-                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=414&q=80"
                                 alt=""
                             />
                         </a>
@@ -1792,7 +1800,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             <!-- Image -->
                             <img
                                 class="object-cover grayscale"
-                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=414&q=80"
                                 alt=""
                             />
                         </a>
@@ -1847,7 +1855,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                             <!-- Image -->
                             <img
                                 class="object-cover grayscale"
-                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=414&q=80"
                                 alt=""
                             />
                         </a>
@@ -2095,7 +2103,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9cf3c2d7-7005-4b20-b6b0-56926d4f6d18.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/9cf3c2d7-7005-4b20-b6b0-56926d4f6d18.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/9cf3c2d7-7005-4b20-b6b0-56926d4f6d18.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9cf3c2d7-7005-4b20-b6b0-56926d4f6d18.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/9cf3c2d7-7005-4b20-b6b0-56926d4f6d18.jpeg" alt="" /> -->
                             
@@ -2116,7 +2124,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/33b4bd6c-ec7d-4d7d-9ec3-664ea0f10d52.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/33b4bd6c-ec7d-4d7d-9ec3-664ea0f10d52.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/33b4bd6c-ec7d-4d7d-9ec3-664ea0f10d52.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/33b4bd6c-ec7d-4d7d-9ec3-664ea0f10d52.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/33b4bd6c-ec7d-4d7d-9ec3-664ea0f10d52.jpeg" alt="" /> -->
                             
@@ -2137,7 +2145,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a3fa8d69-80f9-4029-ab76-855b48e93b07.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a3fa8d69-80f9-4029-ab76-855b48e93b07.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a3fa8d69-80f9-4029-ab76-855b48e93b07.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a3fa8d69-80f9-4029-ab76-855b48e93b07.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/a3fa8d69-80f9-4029-ab76-855b48e93b07.jpeg" alt="" /> -->
                             
@@ -2158,7 +2166,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0ee1912f-1e0a-4e55-b9da-94f4b369f4fa.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/0ee1912f-1e0a-4e55-b9da-94f4b369f4fa.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/0ee1912f-1e0a-4e55-b9da-94f4b369f4fa.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0ee1912f-1e0a-4e55-b9da-94f4b369f4fa.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/0ee1912f-1e0a-4e55-b9da-94f4b369f4fa.jpeg" alt="" /> -->
                             
@@ -2179,7 +2187,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/76f181d5-d5c9-45c5-a57b-dfb826f0e084.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/76f181d5-d5c9-45c5-a57b-dfb826f0e084.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/76f181d5-d5c9-45c5-a57b-dfb826f0e084.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/76f181d5-d5c9-45c5-a57b-dfb826f0e084.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/76f181d5-d5c9-45c5-a57b-dfb826f0e084.jpeg" alt="" /> -->
                             
@@ -2200,7 +2208,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c44d0786-31dc-4dcc-aab6-3659f26b25e2.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/c44d0786-31dc-4dcc-aab6-3659f26b25e2.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/c44d0786-31dc-4dcc-aab6-3659f26b25e2.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c44d0786-31dc-4dcc-aab6-3659f26b25e2.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/c44d0786-31dc-4dcc-aab6-3659f26b25e2.jpeg" alt="" /> -->
                             
@@ -2221,7 +2229,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/86ee0e11-c689-498e-a564-811a990b928a.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/86ee0e11-c689-498e-a564-811a990b928a.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/86ee0e11-c689-498e-a564-811a990b928a.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/86ee0e11-c689-498e-a564-811a990b928a.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/86ee0e11-c689-498e-a564-811a990b928a.jpeg" alt="" /> -->
                             
@@ -2242,7 +2250,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/cf5ac457-943f-443b-a41a-9393d49f3e0e.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/cf5ac457-943f-443b-a41a-9393d49f3e0e.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/cf5ac457-943f-443b-a41a-9393d49f3e0e.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/cf5ac457-943f-443b-a41a-9393d49f3e0e.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/cf5ac457-943f-443b-a41a-9393d49f3e0e.jpeg" alt="" /> -->
                             
@@ -2263,7 +2271,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1b97f0c8-b286-46cb-914f-a73c97ae9337.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/1b97f0c8-b286-46cb-914f-a73c97ae9337.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/1b97f0c8-b286-46cb-914f-a73c97ae9337.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1b97f0c8-b286-46cb-914f-a73c97ae9337.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/1b97f0c8-b286-46cb-914f-a73c97ae9337.jpeg" alt="" /> -->
                             
@@ -2284,7 +2292,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9023c8f5-60d3-480c-8098-1de3e5386a89.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/9023c8f5-60d3-480c-8098-1de3e5386a89.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/9023c8f5-60d3-480c-8098-1de3e5386a89.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9023c8f5-60d3-480c-8098-1de3e5386a89.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/9023c8f5-60d3-480c-8098-1de3e5386a89.jpeg" alt="" /> -->
                             
@@ -2305,7 +2313,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7b59ad3e-66a0-433a-b52a-fbf0e5320bc8.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/7b59ad3e-66a0-433a-b52a-fbf0e5320bc8.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/7b59ad3e-66a0-433a-b52a-fbf0e5320bc8.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7b59ad3e-66a0-433a-b52a-fbf0e5320bc8.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/7b59ad3e-66a0-433a-b52a-fbf0e5320bc8.jpeg" alt="" /> -->
                             
@@ -2326,7 +2334,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0af825c6-94a1-43c4-85ff-2be498792354.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/0af825c6-94a1-43c4-85ff-2be498792354.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/0af825c6-94a1-43c4-85ff-2be498792354.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0af825c6-94a1-43c4-85ff-2be498792354.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/0af825c6-94a1-43c4-85ff-2be498792354.jpeg" alt="" /> -->
                             
@@ -2347,7 +2355,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/91d36341-d0a1-45a8-a93f-1cf983d3ccfb.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/91d36341-d0a1-45a8-a93f-1cf983d3ccfb.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/91d36341-d0a1-45a8-a93f-1cf983d3ccfb.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/91d36341-d0a1-45a8-a93f-1cf983d3ccfb.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/91d36341-d0a1-45a8-a93f-1cf983d3ccfb.jpeg" alt="" /> -->
                             
@@ -2368,7 +2376,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5d81c4cf-7c27-46b9-a82a-e23956abc2d8.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/5d81c4cf-7c27-46b9-a82a-e23956abc2d8.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/5d81c4cf-7c27-46b9-a82a-e23956abc2d8.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5d81c4cf-7c27-46b9-a82a-e23956abc2d8.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/5d81c4cf-7c27-46b9-a82a-e23956abc2d8.jpeg" alt="" /> -->
                             
@@ -2389,7 +2397,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8497fb6f-7a06-46ff-b261-1a2ebe00bb5c.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/8497fb6f-7a06-46ff-b261-1a2ebe00bb5c.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/8497fb6f-7a06-46ff-b261-1a2ebe00bb5c.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8497fb6f-7a06-46ff-b261-1a2ebe00bb5c.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/8497fb6f-7a06-46ff-b261-1a2ebe00bb5c.jpeg" alt="" /> -->
                             
@@ -2410,7 +2418,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/319cb322-bb08-4d44-a429-593708ecf746.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/319cb322-bb08-4d44-a429-593708ecf746.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/319cb322-bb08-4d44-a429-593708ecf746.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/319cb322-bb08-4d44-a429-593708ecf746.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/319cb322-bb08-4d44-a429-593708ecf746.jpeg" alt="" /> -->
                             
@@ -2431,7 +2439,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b5947185-3d0a-42d4-a55b-b528fac7636c.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/b5947185-3d0a-42d4-a55b-b528fac7636c.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/b5947185-3d0a-42d4-a55b-b528fac7636c.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b5947185-3d0a-42d4-a55b-b528fac7636c.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/b5947185-3d0a-42d4-a55b-b528fac7636c.jpeg" alt="" /> -->
                             
@@ -2452,7 +2460,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/13480526-746c-4661-89e1-a3ccc2eea1d5.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/13480526-746c-4661-89e1-a3ccc2eea1d5.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/13480526-746c-4661-89e1-a3ccc2eea1d5.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/13480526-746c-4661-89e1-a3ccc2eea1d5.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/13480526-746c-4661-89e1-a3ccc2eea1d5.jpeg" alt="" /> -->
                             
@@ -2473,7 +2481,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/bd6b41c3-b624-45a5-9c18-cf33c190a716.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/bd6b41c3-b624-45a5-9c18-cf33c190a716.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/bd6b41c3-b624-45a5-9c18-cf33c190a716.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/bd6b41c3-b624-45a5-9c18-cf33c190a716.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/bd6b41c3-b624-45a5-9c18-cf33c190a716.jpeg" alt="" /> -->
                             
@@ -2494,7 +2502,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/075932b5-885f-44c1-9da3-fe0ecc279d99.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/075932b5-885f-44c1-9da3-fe0ecc279d99.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/075932b5-885f-44c1-9da3-fe0ecc279d99.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/075932b5-885f-44c1-9da3-fe0ecc279d99.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/075932b5-885f-44c1-9da3-fe0ecc279d99.jpeg" alt="" /> -->
                             
@@ -2515,7 +2523,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/88d9e289-9e4a-40da-a4b8-d38478b22c5d.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/88d9e289-9e4a-40da-a4b8-d38478b22c5d.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/88d9e289-9e4a-40da-a4b8-d38478b22c5d.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/88d9e289-9e4a-40da-a4b8-d38478b22c5d.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/88d9e289-9e4a-40da-a4b8-d38478b22c5d.jpeg" alt="" /> -->
                             
@@ -2536,7 +2544,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a2c7c06a-0052-427e-8d71-425eaf67bee9.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a2c7c06a-0052-427e-8d71-425eaf67bee9.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a2c7c06a-0052-427e-8d71-425eaf67bee9.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a2c7c06a-0052-427e-8d71-425eaf67bee9.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/a2c7c06a-0052-427e-8d71-425eaf67bee9.jpeg" alt="" /> -->
                             
@@ -2557,7 +2565,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/952300f9-88d9-44f3-af69-d76366ae4958.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/952300f9-88d9-44f3-af69-d76366ae4958.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/952300f9-88d9-44f3-af69-d76366ae4958.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/952300f9-88d9-44f3-af69-d76366ae4958.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/952300f9-88d9-44f3-af69-d76366ae4958.jpeg" alt="" /> -->
                             
@@ -2578,7 +2586,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9cc295b2-ae2b-49c5-8b37-cc5f25dae609.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/9cc295b2-ae2b-49c5-8b37-cc5f25dae609.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/9cc295b2-ae2b-49c5-8b37-cc5f25dae609.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9cc295b2-ae2b-49c5-8b37-cc5f25dae609.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/9cc295b2-ae2b-49c5-8b37-cc5f25dae609.jpeg" alt="" /> -->
                             
@@ -2599,7 +2607,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5782972c-e864-4a13-8095-0bf0bd3a699b.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/5782972c-e864-4a13-8095-0bf0bd3a699b.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/5782972c-e864-4a13-8095-0bf0bd3a699b.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5782972c-e864-4a13-8095-0bf0bd3a699b.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/5782972c-e864-4a13-8095-0bf0bd3a699b.jpeg" alt="" /> -->
                             
@@ -2620,7 +2628,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a096a913-3a80-4ad0-a7dc-1f6ebdad70be.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a096a913-3a80-4ad0-a7dc-1f6ebdad70be.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/a096a913-3a80-4ad0-a7dc-1f6ebdad70be.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a096a913-3a80-4ad0-a7dc-1f6ebdad70be.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/a096a913-3a80-4ad0-a7dc-1f6ebdad70be.jpeg" alt="" /> -->
                             
@@ -2641,7 +2649,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f6518154-0748-4069-b3c0-e3f05a99fee8.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/f6518154-0748-4069-b3c0-e3f05a99fee8.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/f6518154-0748-4069-b3c0-e3f05a99fee8.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f6518154-0748-4069-b3c0-e3f05a99fee8.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/f6518154-0748-4069-b3c0-e3f05a99fee8.jpeg" alt="" /> -->
                             
@@ -2662,7 +2670,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/82e73efa-6d0d-42e5-b7cd-ac9103479042.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/82e73efa-6d0d-42e5-b7cd-ac9103479042.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/82e73efa-6d0d-42e5-b7cd-ac9103479042.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/82e73efa-6d0d-42e5-b7cd-ac9103479042.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/82e73efa-6d0d-42e5-b7cd-ac9103479042.jpeg" alt="" /> -->
                             
@@ -2683,7 +2691,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1a082e5e-9a56-4c98-92db-1812bca9b81b.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/1a082e5e-9a56-4c98-92db-1812bca9b81b.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/1a082e5e-9a56-4c98-92db-1812bca9b81b.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1a082e5e-9a56-4c98-92db-1812bca9b81b.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/1a082e5e-9a56-4c98-92db-1812bca9b81b.jpeg" alt="" /> -->
                             
@@ -2704,7 +2712,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/75b9a9c7-68c7-4b9f-8b0f-c2944424af0b.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/75b9a9c7-68c7-4b9f-8b0f-c2944424af0b.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/75b9a9c7-68c7-4b9f-8b0f-c2944424af0b.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/75b9a9c7-68c7-4b9f-8b0f-c2944424af0b.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/75b9a9c7-68c7-4b9f-8b0f-c2944424af0b.jpeg" alt="" /> -->
                             
@@ -2725,7 +2733,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                         <div class="aspect-w-3 aspect-h-2">
                             <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ac6696fb-8899-4e2c-8ff6-ebcb938b947a.jpeg" alt="" /> -->
                              
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/ac6696fb-8899-4e2c-8ff6-ebcb938b947a.jpeg" alt="" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/ac6696fb-8899-4e2c-8ff6-ebcb938b947a.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/> 
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ac6696fb-8899-4e2c-8ff6-ebcb938b947a.jpeg" alt="" /> -->
                                 <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/x/media/ac6696fb-8899-4e2c-8ff6-ebcb938b947a.jpeg" alt="" /> -->
                             
@@ -2790,7 +2798,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 0">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9cf3c2d7-7005-4b20-b6b0-56926d4f6d18.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9cf3c2d7-7005-4b20-b6b0-56926d4f6d18.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2798,7 +2806,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 1">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/33b4bd6c-ec7d-4d7d-9ec3-664ea0f10d52.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/33b4bd6c-ec7d-4d7d-9ec3-664ea0f10d52.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2806,7 +2814,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 2">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a3fa8d69-80f9-4029-ab76-855b48e93b07.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a3fa8d69-80f9-4029-ab76-855b48e93b07.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2814,7 +2822,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 3">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0ee1912f-1e0a-4e55-b9da-94f4b369f4fa.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0ee1912f-1e0a-4e55-b9da-94f4b369f4fa.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2822,7 +2830,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 4">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/76f181d5-d5c9-45c5-a57b-dfb826f0e084.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/76f181d5-d5c9-45c5-a57b-dfb826f0e084.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2830,7 +2838,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 5">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c44d0786-31dc-4dcc-aab6-3659f26b25e2.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/c44d0786-31dc-4dcc-aab6-3659f26b25e2.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2838,7 +2846,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 6">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/86ee0e11-c689-498e-a564-811a990b928a.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/86ee0e11-c689-498e-a564-811a990b928a.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2846,7 +2854,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 7">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/cf5ac457-943f-443b-a41a-9393d49f3e0e.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/cf5ac457-943f-443b-a41a-9393d49f3e0e.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2854,7 +2862,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 8">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1b97f0c8-b286-46cb-914f-a73c97ae9337.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1b97f0c8-b286-46cb-914f-a73c97ae9337.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2862,7 +2870,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 9">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9023c8f5-60d3-480c-8098-1de3e5386a89.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9023c8f5-60d3-480c-8098-1de3e5386a89.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2870,7 +2878,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 10">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7b59ad3e-66a0-433a-b52a-fbf0e5320bc8.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7b59ad3e-66a0-433a-b52a-fbf0e5320bc8.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2878,7 +2886,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 11">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0af825c6-94a1-43c4-85ff-2be498792354.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0af825c6-94a1-43c4-85ff-2be498792354.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2886,7 +2894,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 12">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/91d36341-d0a1-45a8-a93f-1cf983d3ccfb.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/91d36341-d0a1-45a8-a93f-1cf983d3ccfb.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2894,7 +2902,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 13">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5d81c4cf-7c27-46b9-a82a-e23956abc2d8.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5d81c4cf-7c27-46b9-a82a-e23956abc2d8.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2902,7 +2910,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 14">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8497fb6f-7a06-46ff-b261-1a2ebe00bb5c.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/8497fb6f-7a06-46ff-b261-1a2ebe00bb5c.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2910,7 +2918,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 15">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/319cb322-bb08-4d44-a429-593708ecf746.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/319cb322-bb08-4d44-a429-593708ecf746.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2918,7 +2926,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 16">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b5947185-3d0a-42d4-a55b-b528fac7636c.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/b5947185-3d0a-42d4-a55b-b528fac7636c.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2926,7 +2934,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 17">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/13480526-746c-4661-89e1-a3ccc2eea1d5.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/13480526-746c-4661-89e1-a3ccc2eea1d5.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2934,7 +2942,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 18">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/bd6b41c3-b624-45a5-9c18-cf33c190a716.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/bd6b41c3-b624-45a5-9c18-cf33c190a716.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2942,7 +2950,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 19">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/075932b5-885f-44c1-9da3-fe0ecc279d99.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/075932b5-885f-44c1-9da3-fe0ecc279d99.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2950,7 +2958,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 20">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/88d9e289-9e4a-40da-a4b8-d38478b22c5d.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/88d9e289-9e4a-40da-a4b8-d38478b22c5d.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2958,7 +2966,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 21">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a2c7c06a-0052-427e-8d71-425eaf67bee9.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a2c7c06a-0052-427e-8d71-425eaf67bee9.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2966,7 +2974,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 22">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/952300f9-88d9-44f3-af69-d76366ae4958.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/952300f9-88d9-44f3-af69-d76366ae4958.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2974,7 +2982,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 23">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9cc295b2-ae2b-49c5-8b37-cc5f25dae609.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9cc295b2-ae2b-49c5-8b37-cc5f25dae609.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2982,7 +2990,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 24">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5782972c-e864-4a13-8095-0bf0bd3a699b.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5782972c-e864-4a13-8095-0bf0bd3a699b.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2990,7 +2998,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 25">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a096a913-3a80-4ad0-a7dc-1f6ebdad70be.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a096a913-3a80-4ad0-a7dc-1f6ebdad70be.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -2998,7 +3006,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 26">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f6518154-0748-4069-b3c0-e3f05a99fee8.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/f6518154-0748-4069-b3c0-e3f05a99fee8.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -3006,7 +3014,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 27">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/82e73efa-6d0d-42e5-b7cd-ac9103479042.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/82e73efa-6d0d-42e5-b7cd-ac9103479042.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -3014,7 +3022,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 28">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1a082e5e-9a56-4c98-92db-1812bca9b81b.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1a082e5e-9a56-4c98-92db-1812bca9b81b.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -3022,7 +3030,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 29">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/75b9a9c7-68c7-4b9f-8b0f-c2944424af0b.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/75b9a9c7-68c7-4b9f-8b0f-c2944424af0b.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -3030,7 +3038,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                     <!-- Transition Wrapper 1 -->
                                     <li class="flex flex-col" x-show="activeImage === 30">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ac6696fb-8899-4e2c-8ff6-ebcb938b947a.jpeg" alt="placeholder image" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ac6696fb-8899-4e2c-8ff6-ebcb938b947a.jpeg" alt="Ceramic Coating for Diamond Touch Auto Detailing in Taylorsville, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
@@ -3246,12 +3254,12 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                         />
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
-                                        Thank you for the top notch professional job you did on my Buick Encore! It looks like it was just driven off of a showroom floor. If you&#x27;re looking for a five star car detailing, then give David a call at Diamond Touch Detailing!
+                                        I have driven a NASCAR Race Hauler since 2006 and the haulers have to spotless at all times, so therefore I’m very picky with my personal vehicle.   I took my F-350 to David at Diamond Touch Detailing and his work is by far the very best that I have ever had anyone detailing my vehicle. Would highly recommend him.   He will do all my detailing from now on.
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
                                     <div>
-                                        <span class="block font-medium text-primary">Leigh Bowman Malinak</span>
+                                        <span class="block font-medium text-primary">Dale Lackey</span>
                                         <span class="block font-medium">Taylorsville, NC</span>
                                     </div>
 
@@ -3336,12 +3344,12 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                         />
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
-                                        Bought a basically new car from David a few weeks ago. He was honest and made the transaction super simple. The car looked better than it did when it was on the lot after he got done with it.
+                                        Thank you for the top notch professional job you did on my Buick Encore! It looks like it was just driven off of a showroom floor. If you&#x27;re looking for a five star car detailing, then give David a call at Diamond Touch Detailing!
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
                                     <div>
-                                        <span class="block font-medium text-primary">Drew Miller</span>
+                                        <span class="block font-medium text-primary">Leigh Bowman Malinak</span>
                                         <span class="block font-medium">Taylorsville, NC</span>
                                     </div>
 
@@ -3419,12 +3427,12 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                         />
                                     </svg>
                                     <p lorem="1" class="relative text-lg font-medium">
-                                        I have driven a NASCAR Race Hauler since 2006 and the haulers have to spotless at all times, so therefore I’m very picky with my personal vehicle.   I took my F-350 to David at Diamond Touch Detailing and his work is by far the very best that I have ever had anyone detailing my vehicle. Would highly recommend him.   He will do all my detailing from now on.
+                                        Bought a basically new car from David a few weeks ago. He was honest and made the transaction super simple. The car looked better than it did when it was on the lot after he got done with it.
                                     </p>
                                 </div>
                                 <footer class="flex items-center justify-between mt-8 space-x-4">
                                     <div>
-                                        <span class="block font-medium text-primary">Dale Lackey</span>
+                                        <span class="block font-medium text-primary">Drew Miller</span>
                                         <span class="block font-medium">Taylorsville, NC</span>
                                     </div>
 
@@ -3561,7 +3569,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="39775"
+                                aria-controls="43356"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">What&#x27;s the best way to reach you?</span>
@@ -3581,7 +3589,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="39775">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="43356">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">Give us a call or send us a text at +1 828-855-4935. Thanks!</p>
                         </dd>
@@ -3594,7 +3602,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="39776"
+                                aria-controls="43357"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">Do you provide free estimates?</span>
@@ -3614,7 +3622,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="39776">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="43357">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">Yes, we&#x27;ll always estimate the job for free. Just give us a call to get started.</p>
                         </dd>
@@ -3627,7 +3635,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="39777"
+                                aria-controls="43358"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">How are you different?</span>
@@ -3647,7 +3655,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="39777">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="43358">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">We&#x27;re a customer-first company that will do whatever it takes to make sure the job is well done.</p>
                         </dd>
@@ -3716,7 +3724,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                 <!-- Your map here -->
                 <div class="w-full h-full bg-gray-400">
                     <div style="height:500px; width:100%;" id="map"></div>
-                    <script >
+                    <script defer>
                         async function coordinate(url) {
                             const res = await fetch(url)
                             const coordinates = await res.json()
@@ -3774,6 +3782,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                     </script>
                     <script
                     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSw3qRocbSgfTrtxZbCsTjSHZaaJuUXF4&callback=initMap&libraries=&v=weekly"
+                    defer
                     async
                   ></script> 
               
@@ -3855,7 +3864,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
               <div class="flex space-x-6">
                   <!-- are these conditional? and linked to corret links? -->
                   
-                  <a target="_blank" rel="noopener noreferrer" href="//facebook.com/diamondtouch828" class="text-gray-100 hover:text-gray-300 focus:outline-none focus:ring-2 ring-white ring-opacity-75">
+                  <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/diamondtouch828" class="text-gray-100 hover:text-gray-300 focus:outline-none focus:ring-2 ring-white ring-opacity-75">
                       <span class="sr-only">Facebook</span>
                       <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                           <path
@@ -3928,6 +3937,13 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                           
                           
                           
+                          <li>
+                              <a
+                                  href='sitemap.xml'
+                                  class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
+                                  >Sitemap</a
+                              >
+                          </li>
                       </ul>
                   </div>
                   <!-- Services Links -->
@@ -4273,102 +4289,102 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-144427"
-                                            name="144427"
+                                            id="contact-service-154006"
+                                            name="154006"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-144427" class="ml-3 text-sm font-medium text-gray-700">Ceramic Coating</label>
+                                        <label for="contact-label-service-154006" class="ml-3 text-sm font-medium text-gray-700">Ceramic Coating</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-144428"
-                                            name="144428"
+                                            id="contact-service-154007"
+                                            name="154007"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-144428" class="ml-3 text-sm font-medium text-gray-700">Paint Correction</label>
+                                        <label for="contact-label-service-154007" class="ml-3 text-sm font-medium text-gray-700">Paint Correction</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-144429"
-                                            name="144429"
+                                            id="contact-service-154008"
+                                            name="154008"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-144429" class="ml-3 text-sm font-medium text-gray-700">Waxing Services</label>
+                                        <label for="contact-label-service-154008" class="ml-3 text-sm font-medium text-gray-700">Waxing Services</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-144430"
-                                            name="144430"
+                                            id="contact-service-154009"
+                                            name="154009"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-144430" class="ml-3 text-sm font-medium text-gray-700">Exterior Polishing</label>
+                                        <label for="contact-label-service-154009" class="ml-3 text-sm font-medium text-gray-700">Exterior Polishing</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-144431"
-                                            name="144431"
+                                            id="contact-service-154010"
+                                            name="154010"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-144431" class="ml-3 text-sm font-medium text-gray-700">Wheel and Chrome Polishing</label>
+                                        <label for="contact-label-service-154010" class="ml-3 text-sm font-medium text-gray-700">Wheel and Chrome Polishing</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-144432"
-                                            name="144432"
+                                            id="contact-service-154011"
+                                            name="154011"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-144432" class="ml-3 text-sm font-medium text-gray-700">Undercarriage Protection</label>
+                                        <label for="contact-label-service-154011" class="ml-3 text-sm font-medium text-gray-700">Undercarriage Protection</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-144433"
-                                            name="144433"
+                                            id="contact-service-154012"
+                                            name="154012"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-144433" class="ml-3 text-sm font-medium text-gray-700">Headlight Restoration</label>
+                                        <label for="contact-label-service-154012" class="ml-3 text-sm font-medium text-gray-700">Headlight Restoration</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-144434"
-                                            name="144434"
+                                            id="contact-service-154013"
+                                            name="154013"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-144434" class="ml-3 text-sm font-medium text-gray-700">Leather Conditioning</label>
+                                        <label for="contact-label-service-154013" class="ml-3 text-sm font-medium text-gray-700">Leather Conditioning</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-144435"
-                                            name="144435"
+                                            id="contact-service-154014"
+                                            name="154014"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-144435" class="ml-3 text-sm font-medium text-gray-700">Steam Clean</label>
+                                        <label for="contact-label-service-154014" class="ml-3 text-sm font-medium text-gray-700">Steam Clean</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-144436"
-                                            name="144436"
+                                            id="contact-service-154015"
+                                            name="154015"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-144436" class="ml-3 text-sm font-medium text-gray-700">Carpet Shampoo</label>
+                                        <label for="contact-label-service-154015" class="ml-3 text-sm font-medium text-gray-700">Carpet Shampoo</label>
                                     </div>
                                 
                             </div>
@@ -4530,7 +4546,7 @@ Our Guarantee: Expert quality every time. We don&#x27;t consider a job done unti
                     <!-- Yelp Link -->
                     
                     <li>
-                        <a target="_blank" rel="noopener noreferrer" href="//https://facebook.com/diamondtouch828/reviews" class="inline-flex w-full px-5 py-2.5 text-sm font-medium transition border-2 border-transparent rounded-md bg-primary text-primary-foreground focus:outline-none hover:bg-primary-darker focus:ring-2 ring-primary ring-opacity-75 ring-offset-2">Leave a Review</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/diamondtouch828/reviews" class="inline-flex w-full px-5 py-2.5 text-sm font-medium transition border-2 border-transparent rounded-md bg-primary text-primary-foreground focus:outline-none hover:bg-primary-darker focus:ring-2 ring-primary ring-opacity-75 ring-offset-2">Leave a Review</a>
                     </li>
                     
                 </ul>
